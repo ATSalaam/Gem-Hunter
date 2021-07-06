@@ -11,16 +11,16 @@ var spikeTrap_Img, fireBallTrap_Img, fallingFloor_Img;
 var player_Img, platform_Img,ruby_Img;
 
 function preload(){
-    bgImg = loadImage("../images/Entrance.jpg");
-    bg2 = loadImage("../images/Level bg1.jpg");
-    bg3 = loadImage("../images/Entrance.jpg");
+    bgImg = loadImage("images/Entrance.jpg");
+    bg2 = loadImage("images/Level bg1.jpg");
+    bg3 = loadImage("images/Entrance.jpg");
     spikeTrapImg = loadImage("images/Spike trap.jpg");
     fireBallTrapImg = loadImage("images/fireball.gif");
     fallingFloorImg = loadImage("images/Falling floor.png");
 
-    platform_Img = loadImage("../images/Platform.png");
-    player_Img = loadImage("../images/Henry.png");
-    ruby_Img = loadImage("../images/ruby.png");
+    platform_Img = loadImage("images/Platform.png");
+    player_Img = loadImage("images/Henry.png");
+    ruby_Img = loadImage("images/ruby.png");
 }
 
 function setup(){
